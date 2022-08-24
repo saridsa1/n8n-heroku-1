@@ -12,6 +12,14 @@
     "success_url": "/",
     "stack": "container",
     "env": {
+      "DB_TYPE": {
+        "description": "Mongo DB",
+        "value": "mongodb"
+      },
+      "DB_MONGODB_CONNECTION_URL": {
+        "description": "Mongo DB connection URI",
+        "value": "mongodb+srv://satyasumans:Mayank@2009@cluster0.kj16vry.mongodb.net/test"
+      },        
       "N8N_BASIC_AUTH_ACTIVE": {
         "description": "Protect n8n setup with basic authentication.",
         "value": "true"
